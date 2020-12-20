@@ -31,6 +31,9 @@ html {
   padding-right: 15px;
   margin: 0 auto;
 }
+.page-header {
+  border-bottom: 1px solid #ececec;
+}
 
 body {
   font-family: "Roboto", sans-serif;
@@ -83,7 +86,6 @@ address {
 header {
   display: flex;
 }
-
 /*Шапка*/
 
 .page-header {
@@ -148,7 +150,6 @@ header {
   padding-top: 32px;
   padding-bottom: 32px;
 }
-
 /*заказать услугу*/
 .order {
   background-color: var(--sec-background-color);
@@ -246,8 +247,7 @@ header {
   display: block;
 }
 
-.team-item,
-.work-item {
+.team-item {
   color: var(--title-text-color);
   font-weight: 700;
   line-height: 1.14;
@@ -256,7 +256,11 @@ header {
   margin-bottom: 10px;
 }
 .work-item {
-  text-transform: uppercase;
+  color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 36px;
+  letter-spacing: 0.06em;
 }
 
 .team {
@@ -321,6 +325,7 @@ header {
 
 .works-button-item {
   margin-right: 8px;
+  margin-bottom: 20px;
 }
 .works-button-item:last-child {
   margin-right: 0px;
@@ -354,6 +359,7 @@ header {
 .works-card {
   display: block;
   padding: 20px 24px;
+  border: 1px solid #eeeeee;
 }
 .work-item,
 .work-content {
@@ -381,13 +387,11 @@ header {
 .page-contacts-footer :focus {
   color: var(--accent-color);
 }
-
 .page-contacts-footer-link {
   color: var(--footer-color);
-
   display: block;
   margin-bottom: 9px;
 }
-.page-contacts-footer-link:last-child {
-  margin-bottom: 0px;
+.page-contacts-footer-link:first-child {
+  margin-bottom: 9px;
 }
