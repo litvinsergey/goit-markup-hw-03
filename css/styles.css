@@ -31,7 +31,7 @@ html {
   padding-right: 15px;
   margin: 0 auto;
 }
-.page-header {
+header {
   border-bottom: 1px solid #ececec;
 }
 
@@ -93,8 +93,7 @@ header {
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--title-text-color);
-
-  justify-content: space-between;
+  justify-content: space-evenly;
 }
 .page-header :hover,
 .page-header :focus {
@@ -358,11 +357,6 @@ header {
   display: block;
   padding: 20px 24px;
   border: 1px solid #eeeeee;
-}
-.work-item,
-.work-content {
-  padding-top: 10px;
-  padding-bottom: 10px;
 }
 .work-item {
   margin-bottom: 4px;
