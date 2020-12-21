@@ -24,7 +24,15 @@ html {
   --sec-background-color: #2f303a;
   --team-background-color: #f5f4fa;
 }
-
+.container1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+}
 .container {
   width: 1200px;
   padding-left: 15px;
@@ -95,15 +103,7 @@ header {
   color: var(--title-text-color);
   justify-content: space-evenly;
 }
-.container1 {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  width: 1200px;
-  padding-left: 15px;
-  padding-right: 15px;
-  margin: 0 auto;
-}
+
 .page-header :hover,
 .page-header :focus {
   color: var(--accent-color);
